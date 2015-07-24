@@ -38,7 +38,7 @@ console.log(mentorArray);
 
 //var contactList = alert("There are " + numStudents + " students and " + numMentors + " mentors.");
 
-var studentList = ""
+var studentList = "";
 
 for (var i = 0; i < studentArray.length; i++) {
   var list = 'Name: ' + studentArray[i].name + '\nPhone Number: ' + studentArray[i].phoneNumber + '\nCity: ' + studentArray[i].city + '\n\n';
@@ -48,7 +48,7 @@ for (var i = 0; i < studentArray.length; i++) {
 }
 alert('There are ' + numStudents + ' students.\n' + studentList);
 
-var mentorList = ""
+var mentorList = "";
 
 for (var i = 0; i < mentorArray.length; i++) {
   var mlist = 'Name: ' + mentorArray[i].name + '\nPhone Number: ' + mentorArray[i].phoneNumber + '\nCity: ' + mentorArray[i].city + '\n\n';
